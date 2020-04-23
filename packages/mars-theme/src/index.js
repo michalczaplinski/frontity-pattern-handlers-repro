@@ -47,8 +47,6 @@ const marsTheme = {
               params: { slug: params.slug },
             });
 
-            console.log("HELLO\n");
-
             const [countryInfo] = await libraries.source.populate({
               response,
               state,
